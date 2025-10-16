@@ -16,8 +16,12 @@ export default function HomePage() {
       <h1>Cyberglow Protocol</h1>
       <p>Modular DeFi Suite on IOTA L1</p>
       <nav style={{ marginTop: '2rem' }}>
-        <Link href="/swap"><a style={linkStyle}>Swap</a></Link>
-        <Link href="/lending"><a style={linkStyle}>Lending</a></Link>
+        <Link href="/swap">
+          <a style={linkStyle}>Swap</a>
+        </Link>
+        <Link href="/lending">
+          <a style={linkStyle}>Lending</a>
+        </Link>
       </nav>
     </div>
   );
